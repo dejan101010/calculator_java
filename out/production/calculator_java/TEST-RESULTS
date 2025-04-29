@@ -1,0 +1,201 @@
+Test-Results:
+
+Test case 1: sabiranje intedzera
+	2+3 (vraceni rezultat 5.0) 
+	Sabiranje intedzera vraca float vrednost
+
+Test case 2: sabiranje sa znakom jednakosti
+	2+3= (vraceni rezultat ERROR)
+	Program ne vraca objasnjenje o gresci
+
+Test case 3: sabiranje dva float broja
+	2,4+3,2 (vraceni rezultat ERROR)
+	Program ne vraca objasnjenje o gresci
+
+Test case 4: sabiranje dva float broja
+	2.4+3.2 (vraceni rezultat 5.6000004)
+	Dobijena pogresna vrednost
+
+Test case 5: sabiranje 3 intedzera od kojih su 2 u zagradama
+	2+(3+4) (vraceni rezultat ERROR)
+	Program ne vraca objasnjenje o gresci
+
+Test case 6: oduzimanje 2 intedzera
+	2-3 (vraceni rezultat -1.0)
+	Oduzimanjem dva intedzera, program vraca float vrednost
+
+Test case 7: oduzimanje sa znakom jednakosti
+	2-3= (vraceni rezultat ERROR)
+	Program ne vraca objasnjenje o gresci
+
+Test case 8: oduzimanje dva float broja:
+	2,0-3,0 (vraceni rezultat ERROR)
+	Program ne vraca objasnjenje o gresci
+
+Test case 9: oduzimanje dva float broja:
+	2.0-3.0 (vraceni rezultat -1.0)
+	Program radi kako treba
+
+Test case 10: oduzimanje 3 intedzera od kojih su 2 u zagradama
+	5-(4-1) (vraceni rezultat ERROR)
+	Program ne vraca objasnjenje o gresci
+
+Test case 11: sabiranje i oduzimanje 3 float broja uz koriscenje zagrada
+	10.0-(2.0+3.0) (vraceni rezultat ERROR)
+	Program ne vraca objasnjenje o gresci
+
+Test case 12: sabiranje veceg negativnog intedzera i manjeg pozitivnog intedzera
+	-7+5 (vraceni rezultat -2.0)
+	Sabiranje intedzera vraca float vrednost
+
+Test case 13: sabiranje dva negativna intedzera
+	-2+(-3) (vraceni rezultat ERROR)
+	Program ne vraca objasnjenje o gresci
+
+Test case 14: oduzimanje dva negativna intedzera
+	-2-(-3) (vraceni rezultat ERROR)
+	Program ne vraca objasnjenje o gresci 
+
+Test case 15: sabiranje dva negativna float broja
+	-2.0+(-3.0) (vraceni rezultat ERROR)
+	Program ne vraca objasnjenje o gresci
+
+Test case 16: oduzimanje dva negativna float broja
+	-2.0-(-3.0) (vraceni rezultat ERROR)
+	Program ne vraca objasnjenje o gresci 
+
+Test case 17: mnozenje dva intedzera
+	2*3 (vraceni rezultat 6.0)
+	Mnozenje intedzera vraca float rezultat
+
+Test case 18: mnozenje dva float broja
+	2.0*3.0 (vraceni rezultat 6.0) 
+	Program radi kako treba
+
+Test case 19: mnozenje dva intedzera sa znakom jednakosti
+	2*3= (vraceni rezultat ERROR)
+	Program ne vraca objasnjenje o gresci
+
+Test case 20: mnozenje dva float broja sa znakom jednakosti
+	2.0*3.0= (vraceni rezultat ERROR)
+	Program ne vraca objasnjenje o gresci
+
+Test case 21: mnozenje dva float broja uz koriscenje zareza
+	2,0*3,0 (vraceni rezultat ERROR)
+	Program ne vraca objasnjenje o gresci
+
+Test case 22: mnozenje 3 intedzera
+	2*3*4 (vraceni rezultat 24.0) 
+	Mnozenjem dva ili vise intedzera dobije se float rezultat
+
+Test case 23: mnozenje 3 float broja 
+	2.5*3.2*3.1 (vraceni rezultat 24.8)
+	Program radi kako treba
+	
+Test case 24: mnozenje dva intedzera pozitivnog i negativnog
+	2*(-3) (vraceni rezultat ERROR)
+	Program ne vraca objasnjenje o gresci
+
+Test case 25: mnozenje dva negativna intedzera
+	-2*(-2) (vraceni rezultat ERROR)
+	Program ne vraca objasnjenje o gresci
+
+Test case 26: mnozenje intedzera sa 0
+	2*0 (vraceni rezultat 0.0)
+	Mnozenje dva intedzera vraca float
+
+Test case 27: mnozenje float sa 0
+	2.0*0 (vraceni rezultat 0.0)
+	Program radi kako treba
+
+Test case 28: mnozenje float sa zarezom sa 0
+	2,0*0 (vraceni rezultat ERROR)
+	Program ne vraca objasnjenje o gresci
+
+Test case 28: mnozenje negativnog intedzer broja sa 0
+	-2*0 (vraceni rezultat 0.0)
+	Mnozenje dva intedzera vraca float
+
+Test case 29: mnozenje negativnog float broja sa 0
+	-2.0*0 (vraceni rezultat 0.0)
+	Program radi kako treba
+
+Test case 30: deljenje dva intedzer broja
+	3/2 (vraceni rezultat 1.5)
+	Program radi kako treba
+
+Test case 31: deljenje dva float broja
+	3.5/2.0 (vraceni rezultat 1.75)
+	Program radi kako treba
+
+Test case 32: deljenje dva float broja sa zarezom
+	3,5/2,0 (vraceni rezultat ERROR)
+	Program ne vraca objasnjenje o gresci
+
+Test case 33: deljenje sa negativnim integerom
+	3/(-2) (vraceni rezultat ERROR)
+	Program ne vraca objasnjenje o gresci
+
+Test case 34: deljenje sa negativnim float brojem
+	3.0/(-2.0) (vraceni rezultat ERROR)
+	Program ne vraca objasnjenje o gresci
+
+Test case 35: deljenje sa nulom
+	5/0 (vraceni rezultat infinity)
+	Program izbacuje netacnu vrednost, deljenje sa 0 nije moguce
+
+Test case 36: deljenje 3 integera
+	9/3/2 (vraceni rezultat 1.5)
+	Program radi kako treba
+
+Test case 37: deljenje 3 float broja
+	9.0/3.0/2.0 (vraceni rezultat 1.5)
+	Program radi kako treba
+
+Test case 38: deljenje 3 float broja sa zarezom
+	9,0/3,0/2,0 (vraceni rezultat ERROR)
+	Program ne vraca objasnjenje o gresci
+
+Test case 39: mesanje navedenih matematickih operacija
+	2+3*5 (vraceni rezultat 17.0)
+	Program vraca float vrednost iako su uneseni integeri
+
+Test case 40: mesanje navedenih matematickih operacija
+	2.0+3.0*5.0 (vraceni rezultat 17.0)
+	Program radi kako treba
+
+Test case 41: mesanje navedenih matematickih operacija
+	-2*3+7 (vraceni rezultat 1.0)
+	Program vraca float vrednost iako su uneseni intedzeri
+
+Test case 42: mesanje navedenih matematickih operacija
+	-2*(-3)-5 (vraceni rezultat ERROR)
+	Program ne vraca objasnjenje o gresi
+
+Test case 43: greska prilikom unosa podataka
+	5--3 (vraceni rezultat ERROR)
+	Program ne vraca objasnjenje o gresci
+
+Test case 44: koriscenje razmaka u matematickom izrazu
+	5 + 3 (vraceni rezultat ERROR)
+	Program ne vraca objasnjenje o gresci
+
+
+
+Uspesno izvrseni testovi: 
+
+	- Proste matematicke operacije (sabiranje, oduzimanje, mnozenje i deljenje u odredjenim slucajevima)
+	- Prioritet racunskih operacija mnozenja i deljenja u odnosu na sabiranje i oduzimanje
+	
+
+Neuspeli testovi:
+
+	- Svi testovi u kojima se koristi zagrada
+
+
+Preporuka za unapredjenje:
+
+	- Uklanjanje razmaka iz izraza pre parsiranja, da se ne bi dogadjale greske
+	- Implementirati zagrade u program
+	- Ispraviti ispisivanje greske, korisniku treba detaljno objasniti sta je greska, a ne samo navesti da greska postoji
+	- Implementirati metodu za parsiranje zareza kao tacke, da bi program mogao da radi i prilikom unosa float broja sa zarezom

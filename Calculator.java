@@ -185,4 +185,13 @@ public class Calculator {
 
     }
 
+    public static void main(String[] args) {
+        
+    }
+
+    public static Integer Calculate(String string) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'Calculate'");
+    }
+
 }
